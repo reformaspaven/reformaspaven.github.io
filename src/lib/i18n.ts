@@ -1,19 +1,30 @@
-export type Language = 'es' | 'en' | 'sv';
+export type Language = 'es' | 'en' | 'sv' | 'de';
 
 export const translations = {
   es: {
     nav: {
       home: 'Inicio',
       services: 'Servicios',
+      about: 'Sobre Nosotros',
       contact: 'Contacto',
       quote: 'Pedir Presupuesto',
     },
     hero: {
-      title: 'Transformamos tu espacio',
-      subtitle: 'con calidad y profesionalidad',
-      description: 'Más de 15 años de experiencia en reformas integrales, impermeabilizaciones y pintura profesional.',
+      title: 'Estamos aquí para transformar tu espacio',
+      subtitle: 'con calidad',
+      description: 'Más de 15 años de experiencia en reformas integrales e impermeabilizaciones profesionales.',
       cta: 'Pide tu presupuesto sin compromiso',
       ctaSecondary: 'Ver nuestros servicios',
+    },
+    about: {
+      title: 'Sobre Nosotros',
+      subtitle: '15 años de experiencia transformando espacios',
+      description: 'Somos una empresa especializada en reformas integrales, impermeabilización y pintura, con 15 años de experiencia ofreciendo soluciones duraderas y de alta calidad.',
+      commitment: 'Trabajamos con compromiso, seriedad y atención al detalle, adaptándonos a las necesidades de cada cliente para transformar y proteger sus espacios.',
+      priority: 'Nuestra prioridad es la satisfacción del cliente, combinando materiales de primera, acabados impecables y cumplimiento de plazos.',
+      experience: 'Años de experiencia',
+      projects: 'Proyectos completados',
+      clients: 'Clientes satisfechos',
     },
     services: {
       title: 'Nuestros Servicios',
@@ -25,10 +36,6 @@ export const translations = {
       impermeabilizacion: {
         title: 'Impermeabilizaciones',
         description: 'Protegemos tu edificio contra filtraciones y humedades. Tratamientos profesionales para terrazas, cubiertas y fachadas.',
-      },
-      pintura: {
-        title: 'Pintura',
-        description: 'Servicios de pintura interior y exterior. Acabados perfectos con materiales de primera calidad para todo tipo de superficies.',
       },
       learnMore: 'Saber más',
     },
@@ -44,6 +51,7 @@ export const translations = {
       submit: 'Enviar solicitud',
       success: '¡Mensaje enviado con éxito! Nos pondremos en contacto contigo pronto.',
       error: 'Hubo un error al enviar el mensaje. Por favor, inténtalo de nuevo.',
+      rateLimit: 'Por favor, espera 30 segundos antes de enviar otro mensaje.',
     },
     footer: {
       rights: 'Todos los derechos reservados',
@@ -54,15 +62,26 @@ export const translations = {
     nav: {
       home: 'Home',
       services: 'Services',
+      about: 'About Us',
       contact: 'Contact',
       quote: 'Get a Quote',
     },
     hero: {
-      title: 'We transform your space',
-      subtitle: 'with quality and professionalism',
-      description: 'Over 15 years of experience in comprehensive renovations, waterproofing and professional painting.',
+      title: 'We are here to transform your space',
+      subtitle: 'with quality',
+      description: 'Over 15 years of experience in comprehensive renovations and professional waterproofing.',
       cta: 'Get your free quote',
       ctaSecondary: 'See our services',
+    },
+    about: {
+      title: 'About Us',
+      subtitle: '15 years of experience transforming spaces',
+      description: 'We are a company specialized in comprehensive renovations, waterproofing and painting, with 15 years of experience offering durable and high-quality solutions.',
+      commitment: 'We work with commitment, seriousness and attention to detail, adapting to the needs of each client to transform and protect their spaces.',
+      priority: 'Our priority is customer satisfaction, combining first-class materials, impeccable finishes and meeting deadlines.',
+      experience: 'Years of experience',
+      projects: 'Completed projects',
+      clients: 'Satisfied clients',
     },
     services: {
       title: 'Our Services',
@@ -74,10 +93,6 @@ export const translations = {
       impermeabilizacion: {
         title: 'Waterproofing',
         description: 'We protect your building against leaks and moisture. Professional treatments for terraces, roofs and facades.',
-      },
-      pintura: {
-        title: 'Painting',
-        description: 'Interior and exterior painting services. Perfect finishes with premium materials for all types of surfaces.',
       },
       learnMore: 'Learn more',
     },
@@ -93,6 +108,7 @@ export const translations = {
       submit: 'Send request',
       success: 'Message sent successfully! We will contact you soon.',
       error: 'There was an error sending the message. Please try again.',
+      rateLimit: 'Please wait 30 seconds before sending another message.',
     },
     footer: {
       rights: 'All rights reserved',
@@ -103,15 +119,26 @@ export const translations = {
     nav: {
       home: 'Hem',
       services: 'Tjänster',
+      about: 'Om Oss',
       contact: 'Kontakt',
       quote: 'Begär offert',
     },
     hero: {
-      title: 'Vi förvandlar ditt utrymme',
-      subtitle: 'med kvalitet och professionalism',
-      description: 'Över 15 års erfarenhet av omfattande renoveringar, vattentätning och professionell målning.',
+      title: 'Vi är här för att förvandla ditt utrymme',
+      subtitle: 'med kvalitet',
+      description: 'Över 15 års erfarenhet av omfattande renoveringar och professionell vattentätning.',
       cta: 'Få din kostnadsfria offert',
       ctaSecondary: 'Se våra tjänster',
+    },
+    about: {
+      title: 'Om Oss',
+      subtitle: '15 års erfarenhet av att förvandla utrymmen',
+      description: 'Vi är ett företag specialiserat på omfattande renoveringar, vattentätning och målning, med 15 års erfarenhet av att erbjuda hållbara och högkvalitativa lösningar.',
+      commitment: 'Vi arbetar med engagemang, seriositet och uppmärksamhet på detaljer, och anpassar oss till varje kunds behov för att förvandla och skydda deras utrymmen.',
+      priority: 'Vår prioritet är kundnöjdhet, med förstklassiga material, felfria ytbehandlingar och att hålla deadlines.',
+      experience: 'Års erfarenhet',
+      projects: 'Slutförda projekt',
+      clients: 'Nöjda kunder',
     },
     services: {
       title: 'Våra tjänster',
@@ -123,10 +150,6 @@ export const translations = {
       impermeabilizacion: {
         title: 'Vattentätning',
         description: 'Vi skyddar din byggnad mot läckor och fukt. Professionella behandlingar för terrasser, tak och fasader.',
-      },
-      pintura: {
-        title: 'Målning',
-        description: 'Inomhus- och utomhusmålningstjänster. Perfekta ytbehandlingar med premiummaterial för alla typer av ytor.',
       },
       learnMore: 'Läs mer',
     },
@@ -142,9 +165,67 @@ export const translations = {
       submit: 'Skicka förfrågan',
       success: 'Meddelandet skickades! Vi kontaktar dig snart.',
       error: 'Ett fel uppstod vid skickande av meddelandet. Försök igen.',
+      rateLimit: 'Vänligen vänta 30 sekunder innan du skickar ett nytt meddelande.',
     },
     footer: {
       rights: 'Alla rättigheter förbehållna',
+      address: 'Spanien',
+    },
+  },
+  de: {
+    nav: {
+      home: 'Startseite',
+      services: 'Dienstleistungen',
+      about: 'Über Uns',
+      contact: 'Kontakt',
+      quote: 'Angebot anfordern',
+    },
+    hero: {
+      title: 'Wir sind hier, um Ihren Raum zu verwandeln',
+      subtitle: 'mit Qualität',
+      description: 'Über 15 Jahre Erfahrung in umfassenden Renovierungen und professioneller Abdichtung.',
+      cta: 'Kostenloses Angebot anfordern',
+      ctaSecondary: 'Unsere Dienstleistungen',
+    },
+    about: {
+      title: 'Über Uns',
+      subtitle: '15 Jahre Erfahrung in der Raumgestaltung',
+      description: 'Wir sind ein Unternehmen, das auf umfassende Renovierungen, Abdichtung und Malerarbeiten spezialisiert ist, mit 15 Jahren Erfahrung in der Bereitstellung dauerhafter und hochwertiger Lösungen.',
+      commitment: 'Wir arbeiten mit Engagement, Seriosität und Liebe zum Detail und passen uns den Bedürfnissen jedes Kunden an, um ihre Räume zu verwandeln und zu schützen.',
+      priority: 'Unsere Priorität ist die Kundenzufriedenheit, indem wir erstklassige Materialien, makellose Oberflächen und Termintreue kombinieren.',
+      experience: 'Jahre Erfahrung',
+      projects: 'Abgeschlossene Projekte',
+      clients: 'Zufriedene Kunden',
+    },
+    services: {
+      title: 'Unsere Dienstleistungen',
+      subtitle: 'Umfassende Lösungen für Ihr Zuhause oder Geschäft',
+      reformas: {
+        title: 'Renovierungen',
+        description: 'Komplette Hausrenovierungen, Badezimmer, Küchen und Gewerberäume. Wir verwandeln Ihren Raum mit den besten Oberflächen.',
+      },
+      impermeabilizacion: {
+        title: 'Abdichtung',
+        description: 'Wir schützen Ihr Gebäude vor Lecks und Feuchtigkeit. Professionelle Behandlungen für Terrassen, Dächer und Fassaden.',
+      },
+      learnMore: 'Mehr erfahren',
+    },
+    contact: {
+      title: 'Kontaktieren Sie uns',
+      subtitle: 'Erzählen Sie uns von Ihrem Projekt und wir erstellen Ihnen ein kostenloses Angebot',
+      name: 'Vollständiger Name',
+      email: 'E-Mail-Adresse',
+      phone: 'Telefonnummer',
+      service: 'Gewünschte Dienstleistung',
+      selectService: 'Dienstleistung auswählen',
+      message: 'Beschreiben Sie Ihr Projekt',
+      submit: 'Anfrage senden',
+      success: 'Nachricht erfolgreich gesendet! Wir werden uns bald bei Ihnen melden.',
+      error: 'Beim Senden der Nachricht ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.',
+      rateLimit: 'Bitte warten Sie 30 Sekunden, bevor Sie eine weitere Nachricht senden.',
+    },
+    footer: {
+      rights: 'Alle Rechte vorbehalten',
       address: 'Spanien',
     },
   },

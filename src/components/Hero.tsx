@@ -2,6 +2,7 @@ import { ArrowDown } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Button } from '@/components/ui/button';
 import heroImage from '@/assets/hero-renovation.jpg';
+import logo from '@/assets/logo.png';
 
 export const Hero = () => {
   const { t } = useLanguage();
@@ -28,6 +29,13 @@ export const Hero = () => {
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10 pt-20">
         <div className="max-w-3xl animate-fade-in">
+          {/* Logo in Hero */}
+          <img 
+            src={logo} 
+            alt="PAVEN REFORMAS" 
+            className="h-24 md:h-32 w-auto mb-8 brightness-0 invert opacity-90"
+          />
+          
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-heading font-bold text-primary-foreground leading-tight">
             {t.hero.title}
             <span className="block text-accent">{t.hero.subtitle}</span>
