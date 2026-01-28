@@ -38,7 +38,6 @@ export const Hero = () => {
           
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-heading font-bold text-primary-foreground leading-tight">
             {t.hero.title}
-            <span className="block text-accent">{t.hero.subtitle}</span>
           </h1>
           
           <p className="mt-6 text-lg md:text-xl text-primary-foreground/80 max-w-xl">
