@@ -11,7 +11,6 @@ export const translations = {
     },
     hero: {
       title: 'Estamos aquí para transformar tu espacio',
-      subtitle: 'con calidad',
       description: 'Más de 15 años de experiencia en reformas integrales e impermeabilizaciones profesionales.',
       cta: 'Pide tu presupuesto sin compromiso',
       ctaSecondary: 'Ver nuestros servicios',
@@ -68,7 +67,6 @@ export const translations = {
     },
     hero: {
       title: 'We are here to transform your space',
-      subtitle: 'with quality',
       description: 'Over 15 years of experience in comprehensive renovations and professional waterproofing.',
       cta: 'Get your free quote',
       ctaSecondary: 'See our services',
@@ -125,7 +123,6 @@ export const translations = {
     },
     hero: {
       title: 'Vi är här för att förvandla ditt utrymme',
-      subtitle: 'med kvalitet',
       description: 'Över 15 års erfarenhet av omfattande renoveringar och professionell vattentätning.',
       cta: 'Få din kostnadsfria offert',
       ctaSecondary: 'Se våra tjänster',
@@ -182,7 +179,6 @@ export const translations = {
     },
     hero: {
       title: 'Wir sind hier, um Ihren Raum zu verwandeln',
-      subtitle: 'mit Qualität',
       description: 'Über 15 Jahre Erfahrung in umfassenden Renovierungen und professioneller Abdichtung.',
       cta: 'Kostenloses Angebot anfordern',
       ctaSecondary: 'Unsere Dienstleistungen',

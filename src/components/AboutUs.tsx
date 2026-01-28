@@ -1,27 +1,15 @@
 import { useLanguage } from '@/contexts/LanguageContext';
-import { Award, Users, Building2 } from 'lucide-react';
+import { Award } from 'lucide-react';
 import logo from '@/assets/logo.png';
 
 export const AboutUs = () => {
   const { t } = useLanguage();
 
-  const stats = [
-    {
-      icon: Award,
-      value: '15+',
-      label: t.about.experience,
-    },
-    {
-      icon: Building2,
-      value: '500+',
-      label: t.about.projects,
-    },
-    {
-      icon: Users,
-      value: '450+',
-      label: t.about.clients,
-    },
-  ];
+  const experienceStat = {
+    icon: Award,
+    value: '15+',
+    label: t.about.experience,
+  };
 
   return (
     <section id="nosotros" className="py-20 md:py-28 bg-card">
@@ -42,22 +30,17 @@ export const AboutUs = () => {
               <p>{t.about.priority}</p>
             </div>
 
-            {/* Stats */}
-            <div className="mt-10 grid grid-cols-3 gap-4">
-              {stats.map((stat, index) => (
-                <div
-                  key={index}
-                  className="text-center p-4 rounded-lg bg-secondary"
-                >
-                  <stat.icon className="h-8 w-8 mx-auto text-accent mb-2" />
-                  <div className="text-2xl md:text-3xl font-bold text-foreground">
-                    {stat.value}
-                  </div>
-                  <div className="text-sm text-muted-foreground mt-1">
-                    {stat.label}
-                  </div>
+            {/* Experience Stat - Centered */}
+            <div className="mt-10 flex justify-center">
+              <div className="text-center p-6 rounded-lg bg-secondary">
+                <experienceStat.icon className="h-10 w-10 mx-auto text-accent mb-2" />
+                <div className="text-3xl md:text-4xl font-bold text-foreground">
+                  {experienceStat.value}
                 </div>
-              ))}
+                <div className="text-sm text-muted-foreground mt-1">
+                  {experienceStat.label}
+                </div>
+              </div>
             </div>
           </div>
 
