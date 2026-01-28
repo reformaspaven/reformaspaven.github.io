@@ -16,6 +16,15 @@ export const Hero = () => {
 
   return (
     <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      {/* Logo in top-left corner */}
+      <div className="absolute top-6 left-6 z-20">
+        <img 
+          src={logo} 
+          alt="PAVEN REFORMAS" 
+          className="h-16 md:h-20 w-auto brightness-0 invert opacity-90"
+        />
+      </div>
+
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
@@ -29,12 +38,6 @@ export const Hero = () => {
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10 pt-20">
         <div className="max-w-3xl animate-fade-in">
-          {/* Logo in Hero */}
-          <img 
-            src={logo} 
-            alt="PAVEN REFORMAS" 
-            className="h-24 md:h-32 w-auto mb-8 brightness-0 invert opacity-90"
-          />
           
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-heading font-bold text-primary-foreground leading-tight">
             {t.hero.title}
