@@ -15,6 +15,7 @@ const languages: { code: Language; label: string; flag: string }[] = [
   { code: 'es', label: 'Español', flag: '🇪🇸' },
   { code: 'en', label: 'English', flag: '🇬🇧' },
   { code: 'sv', label: 'Svenska', flag: '🇸🇪' },
+  { code: 'de', label: 'Deutsch', flag: '🇩🇪' },
 ];
 
 export const Header = () => {
@@ -53,6 +54,12 @@ export const Header = () => {
               className="font-medium text-foreground/80 hover:text-foreground transition-colors"
             >
               {t.nav.services}
+            </button>
+            <button
+              onClick={() => scrollToSection('nosotros')}
+              className="font-medium text-foreground/80 hover:text-foreground transition-colors"
+            >
+              {t.nav.about}
             </button>
             <button
               onClick={() => scrollToSection('contacto')}
@@ -123,6 +130,12 @@ export const Header = () => {
               className="py-2 font-medium text-foreground/80 hover:text-foreground transition-colors text-left"
             >
               {t.nav.services}
+            </button>
+            <button
+              onClick={() => scrollToSection('nosotros')}
+              className="py-2 font-medium text-foreground/80 hover:text-foreground transition-colors text-left"
+            >
+              {t.nav.about}
             </button>
             <button
               onClick={() => scrollToSection('contacto')}

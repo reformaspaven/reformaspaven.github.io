@@ -40,7 +40,6 @@ export const ContactForm = () => {
   const serviceOptions = [
     { value: 'reformas', label: t.services.reformas.title },
     { value: 'impermeabilizacion', label: t.services.impermeabilizacion.title },
-    { value: 'pintura', label: t.services.pintura.title },
   ];
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -52,11 +51,7 @@ export const ContactForm = () => {
       toast({
         variant: 'destructive',
         title: 'Error',
-        description: language === 'es' 
-          ? 'Por favor espera antes de enviar otro mensaje'
-          : language === 'sv'
-          ? 'Vänta innan du skickar ett nytt meddelande'
-          : 'Please wait before sending another message',
+        description: t.contact.rateLimit,
       });
       return;
     }

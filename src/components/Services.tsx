@@ -4,7 +4,6 @@ import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 import reformasImg from '@/assets/service-reformas.jpg';
 import impermeabilizacionImg from '@/assets/service-impermeabilizacion.jpg';
-import pinturaImg from '@/assets/service-pintura.jpg';
 
 export const Services = () => {
   const { t } = useLanguage();
@@ -29,12 +28,6 @@ export const Services = () => {
       title: t.services.impermeabilizacion.title,
       description: t.services.impermeabilizacion.description,
     },
-    {
-      id: 'pintura',
-      image: pinturaImg,
-      title: t.services.pintura.title,
-      description: t.services.pintura.description,
-    },
   ];
 
   return (
@@ -50,8 +43,8 @@ export const Services = () => {
           </p>
         </div>
 
-        {/* Services Grid */}
-        <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
+        {/* Services Grid - 2 columns */}
+        <div className="grid md:grid-cols-2 gap-6 lg:gap-8 max-w-4xl mx-auto">
           {services.map((service, index) => (
             <Card
               key={service.id}
