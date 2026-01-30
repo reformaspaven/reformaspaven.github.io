@@ -30,7 +30,7 @@ export const translations = {
       subtitle: 'Soluciones integrales para tu hogar o negocio',
       reformas: {
         title: 'Reformas',
-        description: 'Reformas integrales de viviendas, baños, cocinas y locales comerciales. Transformamos tu espacio con los mejores acabados.',
+        description: 'Realizamos reformas integrales transformando tu vivienda de forma completa. Esto incluye no solo la parte estética, sino también instalaciones, distribución de espacios y acabados para que se ajuste a tus necesidades. Nos ocupamos de todas las fases del proyecto, de principio a fin: pisos, casas o locales comerciales. Nos adaptamos a tu presupuesto y necesidades.',
       },
       impermeabilizacion: {
         title: 'Impermeabilizaciones',
@@ -86,7 +86,7 @@ export const translations = {
       subtitle: 'Comprehensive solutions for your home or business',
       reformas: {
         title: 'Renovations',
-        description: 'Complete home renovations, bathrooms, kitchens and commercial spaces. We transform your space with the best finishes.',
+        description: 'We carry out comprehensive renovations, completely transforming your home. This includes not only aesthetics, but also installations, space distribution and finishes to suit your needs. We handle all phases of the project from start to finish: apartments, houses or commercial premises. We adapt to your budget and needs.',
       },
       impermeabilizacion: {
         title: 'Waterproofing',
@@ -142,7 +142,7 @@ export const translations = {
       subtitle: 'Omfattande lösningar för ditt hem eller företag',
       reformas: {
         title: 'Renoveringar',
-        description: 'Kompletta hemrenoveringar, badrum, kök och kommersiella lokaler. Vi förvandlar ditt utrymme med de bästa ytbehandlingarna.',
+        description: 'Vi utför omfattande renoveringar och förvandlar din bostad helt. Detta inkluderar inte bara estetik, utan även installationer, planlösning och finish för att passa dina behov. Vi hanterar alla faser av projektet från början till slut: lägenheter, hus eller kommersiella lokaler. Vi anpassar oss till din budget och dina behov.',
       },
       impermeabilizacion: {
         title: 'Vattentätning',
@@ -198,7 +198,7 @@ export const translations = {
       subtitle: 'Umfassende Lösungen für Ihr Zuhause oder Geschäft',
       reformas: {
         title: 'Renovierungen',
-        description: 'Komplette Hausrenovierungen, Badezimmer, Küchen und Gewerberäume. Wir verwandeln Ihren Raum mit den besten Oberflächen.',
+        description: 'Wir führen umfassende Renovierungen durch und verwandeln Ihre Wohnung komplett. Dies umfasst nicht nur die Ästhetik, sondern auch Installationen, Raumaufteilung und Oberflächen, die Ihren Bedürfnissen entsprechen. Wir kümmern uns um alle Phasen des Projekts von Anfang bis Ende: Wohnungen, Häuser oder Gewerberäume. Wir passen uns Ihrem Budget und Ihren Bedürfnissen an.',
       },
       impermeabilizacion: {
         title: 'Abdichtung',
