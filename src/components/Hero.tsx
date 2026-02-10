@@ -21,7 +21,7 @@ export const Hero = () => {
         <img 
           src={logo} 
           alt="PAVEN REFORMAS" 
-          className="h-16 md:h-20 w-auto brightness-0 invert opacity-90"
+          className="h-16 md:h-20 w-auto drop-shadow-lg"
         />
       </div>
 
