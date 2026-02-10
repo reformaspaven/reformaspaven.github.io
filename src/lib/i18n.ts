@@ -34,7 +34,7 @@ export const translations = {
       },
       impermeabilizacion: {
         title: 'Impermeabilizaciones',
-        description: 'Protegemos tu edificio contra filtraciones y humedades. Tratamientos profesionales para terrazas, cubiertas y fachadas.',
+        description: 'Protegemos desde la raíz para que vivas con tranquilidad en cualquier temporada. Luchamos contra filtraciones y humedades. Tratamientos profesionales para terrazas, cubiertas, etc.',
       },
       learnMore: 'Saber más',
     },
@@ -90,7 +90,7 @@ export const translations = {
       },
       impermeabilizacion: {
         title: 'Waterproofing',
-        description: 'We protect your building against leaks and moisture. Professional treatments for terraces, roofs and facades.',
+        description: 'We protect from the root so you can live with peace of mind in any season. We fight against leaks and moisture. Professional treatments for terraces, roofs, etc.',
       },
       learnMore: 'Learn more',
     },
@@ -146,7 +146,7 @@ export const translations = {
       },
       impermeabilizacion: {
         title: 'Vattentätning',
-        description: 'Vi skyddar din byggnad mot läckor och fukt. Professionella behandlingar för terrasser, tak och fasader.',
+        description: 'Vi skyddar från grunden så att du kan leva tryggt i alla årstider. Vi bekämpar läckor och fukt. Professionella behandlingar för terrasser, tak, etc.',
       },
       learnMore: 'Läs mer',
     },
@@ -202,7 +202,7 @@ export const translations = {
       },
       impermeabilizacion: {
         title: 'Abdichtung',
-        description: 'Wir schützen Ihr Gebäude vor Lecks und Feuchtigkeit. Professionelle Behandlungen für Terrassen, Dächer und Fassaden.',
+        description: 'Wir schützen von Grund auf, damit Sie in jeder Jahreszeit sorgenfrei leben können. Wir bekämpfen Undichtigkeiten und Feuchtigkeit. Professionelle Behandlungen für Terrassen, Dächer, etc.',
       },
       learnMore: 'Mehr erfahren',
     },
