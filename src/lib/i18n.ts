@@ -30,7 +30,7 @@ export const translations = {
       subtitle: 'Soluciones integrales para tu hogar o negocio',
       reformas: {
         title: 'Reformas',
-        description: 'Realizamos reformas integrales transformando tu vivienda de forma completa. Esto incluye no solo la parte estética, sino también instalaciones, distribución de espacios y acabados para que se ajuste a tus necesidades. Nos ocupamos de todas las fases del proyecto, de principio a fin: pisos, casas o locales comerciales. Nos adaptamos a tu presupuesto y necesidades.',
+        description: 'Realizamos reformas integrales transformando tu vivienda de forma completa. Esto incluye no solo la parte estética, sino también instalaciones, distribución de espacios y acabados para que se ajuste a tus necesidades. Nos ocupamos de todas las fases del proyecto, de principio a fin: pisos, casas o locales comerciales. Nos adaptamos a ti.',
       },
       impermeabilizacion: {
         title: 'Impermeabilizaciones',
