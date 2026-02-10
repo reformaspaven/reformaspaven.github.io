@@ -13,7 +13,7 @@ export const Footer = () => {
             <img 
               src={logo} 
               alt="PAVEN REFORMAS" 
-              className="h-12 w-auto brightness-0 invert" 
+              className="h-12 w-auto drop-shadow-lg" 
             />
           </div>
           
