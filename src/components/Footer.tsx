@@ -42,7 +42,7 @@ export const Footer = () => {
           </div>
 
           <p className="text-primary-foreground/70 text-sm text-center">
-            © {currentYear} PAVEN REFORMAS. {t.footer.rights}.
+            © {currentYear} REFORMAS PAVEN. {t.footer.rights}.
           </p>
         </div>
       </div>
