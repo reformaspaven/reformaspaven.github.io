@@ -2,7 +2,6 @@ import { ArrowDown } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Button } from '@/components/ui/button';
 import heroImage from '@/assets/hero-renovation.jpg';
-import logo from '@/assets/logo.png';
 
 export const Hero = () => {
   const { t } = useLanguage();
@@ -16,15 +15,6 @@ export const Hero = () => {
 
   return (
     <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Logo in top-left corner */}
-      <div className="absolute top-6 left-6 z-20">
-        <img 
-          src={logo} 
-          alt="PAVEN REFORMAS" 
-          className="h-16 md:h-20 w-auto drop-shadow-lg"
-        />
-      </div>
-
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img

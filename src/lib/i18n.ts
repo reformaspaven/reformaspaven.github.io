@@ -54,7 +54,7 @@ export const translations = {
     },
     footer: {
       rights: 'Todos los derechos reservados',
-      address: 'España',
+      address: 'Alicante, España',
     },
   },
   en: {
@@ -110,7 +110,7 @@ export const translations = {
     },
     footer: {
       rights: 'All rights reserved',
-      address: 'Spain',
+      address: 'Alicante, Spain',
     },
   },
   sv: {
@@ -166,7 +166,7 @@ export const translations = {
     },
     footer: {
       rights: 'Alla rättigheter förbehållna',
-      address: 'Spanien',
+      address: 'Alicante, Spanien',
     },
   },
   de: {
@@ -222,7 +222,7 @@ export const translations = {
     },
     footer: {
       rights: 'Alle Rechte vorbehalten',
-      address: 'Spanien',
+      address: 'Alicante, Spanien',
     },
   },
 };
