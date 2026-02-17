@@ -114,8 +114,8 @@ export const ContactForm = () => {
                 </div>
                 <div>
                   <h4 className="font-heading font-semibold text-foreground">Email</h4>
-                  <a href="mailto:info@pavenreformas.com" className="text-muted-foreground hover:text-accent transition-colors">
-                    info@pavenreformas.com
+                  <a href="mailto:info@reformaspaven.com" className="text-muted-foreground hover:text-accent transition-colors">
+                    info@reformaspaven.com
                   </a>
                 </div>
               </div>
